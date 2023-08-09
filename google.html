@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Google</title>
+<style>
+    a {
+        color: #222224;
+        text-decoration:none;
+    }
+    ul ,
+    body{
+        padding: 0%;
+        margin: 0%;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    .header{
+        float:right;
+        margin-right: 15px;
+    }
+    .header ul li{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .header .btn{
+        background:#4285f4;
+        color: #fff;
+        padding: 8px;
+        border-radius: 4px;
+    }
+    .clearfix{
+        clear:both;   
+    }
+    .search-box{
+        width: 400px;
+        margin: 150px auto;
+        text-align: center;
+
+    }
+    .search-box .search-input{
+        width: 400px;
+        padding: 10px;
+        border-radius: 20px ;
+        border: 1px solid #ccc;
+    }
+    .search-box .btn-search{
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #e6e6e6;
+        border: none;
+        margin-right: 10px;
+        border-radius: 6px;
+    }
+    .search-box .btn-search:hover{
+        border: 1px solid #9da19e;
+        cursor: pointer;
+    }
+    .footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: #ccc;
+        border-top: 1px solid #ccc;
+        padding-top: 15px;
+    }
+    .footer ul li{
+        display: inline-block;
+        margin-left: 8px;
+        padding-bottom: 5px;
+    }
+    .right-footer{
+        float: right;
+        margin-right: 10px;
+    }
+    .left-footer{
+        float: left;
+        margin-left: 10px;
+
+    }
+</style>
+</head>
+<body>
+    <div class="header">
+        <ul>
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">Images</a></li>
+          <li>
+            <a href="#"><img src="menu-items.png" width="30px" height="30px" alt="Menu Items"></a>
+         </li>
+          <li><a href="#" class="btn">Sign in</a></li>       
+        </ul>
+
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="search-box">
+        <div class="google-logo"><img src="google-logo.png" width="350px" height="100px" alt="Google Logo"></div>
+        <form action="">
+            <input type="text" class="search-input"><br>
+            <input type="submit" class="btn-search" value="Google Search">
+            <input type="submit" class="btn-search" value="I'm Feeling Lucky">
+
+        </form>
+
+    </div>
+    <div class="footer">
+        <div class="right-footer">
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Setting</a></li>
+            </ul>
+        </div>
+        <div class="left-footer">
+            <ul>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">How Search Works</a></li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
